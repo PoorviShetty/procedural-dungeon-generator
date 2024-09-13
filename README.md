@@ -2,8 +2,6 @@
 
 This project generates a random dungeon layout and assigns enemies and loot to each room based on dungeon difficulty.
 
-## Features
-
 - Procedural dungeon generation using graphs.
 - Scaled enemy and loot assignment based on room difficulty.
 - Visual representation of the dungeon layout.

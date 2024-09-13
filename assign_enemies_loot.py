@@ -8,7 +8,7 @@ def assign_enemies_loot(rooms, dungeon_difficulty):
     room_count = 1
 
     for (x, y) in rooms:
-        num_enemies = random.randint(1, min(3, dungeon_difficulty)) 
+        num_enemies = random.randint(0, dungeon_difficulty)
         num_loot = random.randint(0, 2)
 
         enemies = random.sample(enemies_list, num_enemies)
